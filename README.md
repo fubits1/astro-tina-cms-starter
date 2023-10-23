@@ -2,6 +2,8 @@
 
 > Demo: [https://astro-tina-cms-starter.vercel.app/](https://astro-tina-cms-starter.vercel.app/)
 
+> [Multi-Language Starter](https://github.com/fubits1/astro-tina-cms-i18n-starter)
+
 > TinaCMS website: <https://tina.io/>
 
 ## Testimonials
@@ -39,8 +41,9 @@
 ## TODO
 
 - [ ] figure out how to use Astro's image components / preprocessing with Tina
-  - Tina also has an [Image Field type](https://tina.io/docs/reference/types/image/) 
-- [ ] figure out `i18n` support [Official docs](https://tina.io/guides/tinacms/internationalization/guide/)
+  - Tina also has an [Image Field type](https://tina.io/docs/reference/types/image/)
+- [x] figure out `i18n` support [Official docs](https://tina.io/guides/tinacms/internationalization/guide/)
+  - [ ] TODO: data-based UI translations
 - [ ] figure out `mdx` support [Official docs](https://tina.io/docs/editing/markdown/#providing-custom-components-for-mdx-documents)
 - [ ] how to re-share types / schema modeling btw. Tina and Astro?
   - Tina schema is defined in `tina/config.ts`
